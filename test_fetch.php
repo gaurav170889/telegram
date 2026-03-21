@@ -1,0 +1,1 @@
+<?php require 'config.php'; $db = new PDO(DB_DSN, DB_USER, DB_PASS); print_r($db->query('SELECT * FROM deposit_splits')->fetchAll(PDO::FETCH_ASSOC)); print_r($db->query('SELECT * FROM deposit_split_receipts')->fetchAll(PDO::FETCH_ASSOC)); ?>

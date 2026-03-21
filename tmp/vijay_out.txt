@@ -1,0 +1,19 @@
+WALLET: current=120.00 avail=120.00 locked=0.00
+
+LEDGER ENTRIES:
+#3 +$50.00 [deposit_approved] ref:deposit#2 => close:50.00 | 
+#6 +$50.00 [deposit_approved] ref:deposit#3 => close:100.00 | 
+#8 +$50.00 [deposit_approved] ref:deposit#3 => close:150.00 | 
+#10 -$50.00 [split_dispute_correction] ref:split#3 => close:100.00 | Debit due to dispute on split #3
+#12 +$20.00 [deposit_approved] ref:deposit#4 => close:120.00 | 
+
+LEDGER SUM: 120
+
+DEPOSITS:
+  Dep#2 $50.00 status=approved type=split_p2p
+    Split#2 seq#1 recip_player=3 $50.00 status=accepted_no_dispute
+  Dep#3 $100.00 status=approved type=split_p2p
+    Split#3 seq#1 recip_player=3 $50.00 status=resolved_confirmed
+    Split#4 seq#2 recip_player= $50.00 status=accepted_no_dispute
+  Dep#4 $20.00 status=approved type=split_p2p
+    Split#5 seq#1 recip_player=3 $20.00 status=accepted_no_dispute

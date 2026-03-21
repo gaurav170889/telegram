@@ -1,0 +1,17 @@
+Wallet Ledger Schema:
+CREATE TABLE `wallet_ledger` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `wallet_id` int(11) NOT NULL,
+  `entry_type` enum('deposit_request','deposit_approved','deposit_rejected','withdrawal_requested','withdrawal_completed','withdrawal_rejected','split_auto_accepted','split_disputed','split_dispute_correction') DEFAULT NULL,
+  `direction` enum('credit','debit') NOT NULL,
+  `amount` decimal(15,2) NOT NULL,
+  `opening_balance` decimal(15,2) NOT NULL,
+  `closing_balance` decimal(15,2) NOT NULL,
+  `reference_type` enum('deposit','withdrawal','manual','split') NOT NULL,
+  `reference_id` int(11) NOT NULL,
+  `description` text,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `wallet_id` (`wallet_id`),
+  CONSTRAINT `wallet_ledger_ibfk_1` FOREIGN KEY (`wallet_id`) REFERENCES `wallets` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8

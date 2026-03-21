@@ -1,0 +1,7 @@
+Split #3: deposit_id=3 player_id=4 bookie_id=1 amount=50.00 status=resolved_confirmed
+getWalletIdByPlayer(1, 4) => wallet_id=2
+Ledger entries for split#3: 3
+  #7 W#1 debit  [split_auto_accepted] 
+  #9 W#1 credit  [split_disputed] 
+  #10 W#2 debit  [split_dispute_correction] Debit due to dispute on split #3
+WR: wr_id=2 withdrawal_id=2 status=completed reserved=50.00

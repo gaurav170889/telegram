@@ -1,0 +1,154 @@
+Ledger:
+[
+    {
+        "id": 6,
+        "wallet_id": 1,
+        "entry_type": "split_disputed",
+        "direction": "credit",
+        "amount": "50.00",
+        "opening_balance": "250.00",
+        "closing_balance": "300.00",
+        "reference_type": "split",
+        "reference_id": 2,
+        "description": null,
+        "created_at": "2026-03-17 16:47:38"
+    },
+    {
+        "id": 5,
+        "wallet_id": 3,
+        "entry_type": "deposit_approved",
+        "direction": "credit",
+        "amount": "50.00",
+        "opening_balance": "50.00",
+        "closing_balance": "100.00",
+        "reference_type": "deposit",
+        "reference_id": 2,
+        "description": null,
+        "created_at": "2026-03-17 16:46:40"
+    },
+    {
+        "id": 4,
+        "wallet_id": 1,
+        "entry_type": "split_auto_accepted",
+        "direction": "debit",
+        "amount": "50.00",
+        "opening_balance": "300.00",
+        "closing_balance": "250.00",
+        "reference_type": "split",
+        "reference_id": 2,
+        "description": null,
+        "created_at": "2026-03-17 16:46:01"
+    },
+    {
+        "id": 3,
+        "wallet_id": 3,
+        "entry_type": "deposit_approved",
+        "direction": "credit",
+        "amount": "50.00",
+        "opening_balance": "0.00",
+        "closing_balance": "50.00",
+        "reference_type": "deposit",
+        "reference_id": 2,
+        "description": null,
+        "created_at": "2026-03-17 16:46:01"
+    },
+    {
+        "id": 2,
+        "wallet_id": 1,
+        "entry_type": "withdrawal_requested",
+        "direction": "debit",
+        "amount": "0.00",
+        "opening_balance": "300.00",
+        "closing_balance": "300.00",
+        "reference_type": "withdrawal",
+        "reference_id": 1,
+        "description": null,
+        "created_at": "2026-03-17 16:45:19"
+    },
+    {
+        "id": 1,
+        "wallet_id": 1,
+        "entry_type": "deposit_approved",
+        "direction": "credit",
+        "amount": "300.00",
+        "opening_balance": "0.00",
+        "closing_balance": "300.00",
+        "reference_type": "deposit",
+        "reference_id": 1,
+        "description": null,
+        "created_at": "2026-03-17 16:34:53"
+    }
+]
+
+Deposits:
+[
+    {
+        "id": 2,
+        "bookie_id": 1,
+        "player_id": 4,
+        "amount": "100.00",
+        "deposit_type": "split_p2p",
+        "transaction_id": null,
+        "receipt_url": "AgACAgUAAxkBAAIC2Wm5N_AQcY2S6g3KJUtZZ06V5dX6AALNDmsbKFzJVRDdma9PzWT8AQADAgADbQADOgQ",
+        "method_type": "gateway",
+        "gateway_id": null,
+        "status": "approved",
+        "fraud_score": 0,
+        "created_at": "2026-03-17 16:45:45"
+    },
+    {
+        "id": 1,
+        "bookie_id": 1,
+        "player_id": 3,
+        "amount": "300.00",
+        "deposit_type": "split_p2p",
+        "transaction_id": null,
+        "receipt_url": "AgACAgUAAxkBAAICrmm5LiAPwqBFHt0-2zNYc3rE1hu2AAKoDWsbnlrIVZkWWF4jSaTlAQADAgADbQADOgQ",
+        "method_type": "gateway",
+        "gateway_id": null,
+        "status": "approved",
+        "fraud_score": 0,
+        "created_at": "2026-03-17 16:34:40"
+    }
+]
+
+Splits:
+[
+    {
+        "id": 3,
+        "deposit_id": 2,
+        "sequence_no": 2,
+        "recipient_type": "bookie",
+        "recipient_player_id": null,
+        "recipient_bookie_id": 1,
+        "payment_method": "venmo",
+        "payment_handle": "$peter",
+        "amount": "50.00",
+        "status": "accepted_no_dispute",
+        "dispute_window_expires_at": "2026-03-17 16:56:40",
+        "recipient_notified_at": "2026-03-17 16:46:40",
+        "recipient_disputed_at": null,
+        "auto_accepted_at": null,
+        "split_reference": null,
+        "created_at": "2026-03-17 16:45:45"
+    },
+    {
+        "id": 2,
+        "deposit_id": 2,
+        "sequence_no": 1,
+        "recipient_type": "withdraw_player",
+        "recipient_player_id": 3,
+        "recipient_bookie_id": null,
+        "payment_method": "venmo",
+        "payment_handle": "$rajani45",
+        "amount": "50.00",
+        "status": "disputed",
+        "dispute_window_expires_at": "2026-03-17 16:56:01",
+        "recipient_notified_at": "2026-03-17 16:46:01",
+        "recipient_disputed_at": "2026-03-17 16:47:38",
+        "auto_accepted_at": null,
+        "split_reference": null,
+        "created_at": "2026-03-17 16:45:45"
+    }
+]
+

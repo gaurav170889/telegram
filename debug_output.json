@@ -1,0 +1,78 @@
+--- Vijay Player Info ---
+{
+    "id": 4,
+    "telegram_id": 8152733609,
+    "username": null,
+    "first_name": "Vijay48",
+    "last_name": null,
+    "created_at": "2026-03-12 13:31:33"
+}
+
+--- Vijay Bookie State ---
+{
+    "id": 23,
+    "bookie_id": 1,
+    "player_id": 4,
+    "wallet_balance": "0.00",
+    "status": "active",
+    "current_state": "AWAITING_DEPOSIT_AMOUNT",
+    "temp_payload": "null"
+}
+
+--- Vijay Deposits ---
+[
+    {
+        "id": 3,
+        "bookie_id": 1,
+        "player_id": 4,
+        "amount": "60.00",
+        "deposit_type": "split_p2p",
+        "transaction_id": null,
+        "receipt_url": null,
+        "method_type": "gateway",
+        "gateway_id": null,
+        "status": "split_assigned",
+        "fraud_score": 0,
+        "created_at": "2026-03-12 13:31:46"
+    }
+]
+
+--- Latest Deposit Splits ---
+[]
+
+--- Current Withdrawal Queue ---
+[
+    {
+        "id": 1,
+        "bookie_id": 1,
+        "player_id": 3,
+        "amount": "50.00",
+        "amount_requested": "50.00",
+        "amount_submitted": "0.00",
+        "amount_confirmed": "0.00",
+        "amount_disputed": "0.00",
+        "amount_remaining": "50.00",
+        "method_id": 1,
+        "status": "queued",
+        "created_at": "2026-03-10 22:57:07",
+        "first_name": "Rajani",
+        "username": "Rajani1708"
+    },
+    {
+        "id": 2,
+        "bookie_id": 1,
+        "player_id": 3,
+        "amount": "10.00",
+        "amount_requested": "10.00",
+        "amount_submitted": "0.00",
+        "amount_confirmed": "0.00",
+        "amount_disputed": "0.00",
+        "amount_remaining": "10.00",
+        "method_id": 2,
+        "status": "queued",
+        "created_at": "2026-03-12 13:31:21",
+        "first_name": "Rajani",
+        "username": "Rajani1708"
+    }
+]
+

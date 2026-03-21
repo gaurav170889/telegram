@@ -1,0 +1,1215 @@
+2026-02-24T12:39:37+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":6,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771936777,"text":"Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-24T14:52:26+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":8,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771944746,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T14:53:07+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539232156862013"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T14:53:07+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"How much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":9,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771944787,"text":"How much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T14:53:17+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"CashApp @2024lion\"],[\"CashApp Sbbkfrenchbulls\"],[\"CashApp Sdarickrod\"],[\"CashApp Sflipmz01\"],[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":11,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771944796,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-02-24T14:53:22+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Please select one of the deposit methods using the buttons.","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"CashApp @2024lion\"],[\"CashApp Sbbkfrenchbulls\"],[\"CashApp Sdarickrod\"],[\"CashApp Sflipmz01\"],[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":13,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771944802,"text":"Please select one of the deposit methods using the buttons."}}
+ERR=
+-----------------
+2026-02-24T15:05:29+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":15,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771945529,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T15:05:33+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539231491979678"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T15:05:34+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":15,"text":"How much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":15,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771945529,"edit_date":1771945534,"text":"How much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T15:05:43+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":15,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow are you depositing?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":15,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771945529,"edit_date":1771945543,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow are you depositing?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T15:06:12+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539231058244079"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T15:06:13+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":15,"text":"How are you doing deposit?\n\"CashApp Sflipmz01\"\n\nPlease copy\/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\n$Payway33 $3000\n$bbkfrenchbulls $2000","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":15,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771945529,"edit_date":1771945573,"text":"How are you doing deposit?\n\"CashApp Sflipmz01\"\n\nPlease copy/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\n$Payway33 $3000\n$bbkfrenchbulls $2000","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T15:07:36+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":18,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771945655,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T15:07:39+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539230950398731"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T15:07:40+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":18,"text":"How much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":18,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771945655,"edit_date":1771945660,"text":"How much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T15:07:48+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":18,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow are you depositing?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":18,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771945655,"edit_date":1771945668,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow are you depositing?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T15:07:57+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539231468298864"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T15:07:57+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":18,"text":"How are you doing deposit?\n\"CashApp Sflipmz01\"\n\nPlease copy\/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\n$Payway33 $3000\n$bbkfrenchbulls $2000","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":18,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771945655,"edit_date":1771945677,"text":"How are you doing deposit?\n\"CashApp Sflipmz01\"\n\nPlease copy/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\n$Payway33 $3000\n$bbkfrenchbulls $2000","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T15:10:15+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":21,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771945815,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T15:10:19+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539229656289582"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T15:10:20+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":21,"text":"How much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":21,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771945815,"edit_date":1771945820,"text":"How much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T15:12:31+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":23,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771945951,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T15:12:48+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539229486474282"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T15:12:49+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":23,"text":"How much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":23,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771945951,"edit_date":1771945969,"text":"How much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T15:18:54+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":25,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771946333,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T15:18:58+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539230253748521"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T15:18:59+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":25,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":25,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771946333,"edit_date":1771946339,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T15:19:07+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":25,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow are you depositing?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":25,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771946333,"edit_date":1771946347,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow are you depositing?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T16:03:21+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":28,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771949001,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T16:03:25+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539232940351199"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T16:03:26+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":28,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":28,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771949001,"edit_date":1771949005,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T16:03:35+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":8596579399,"message_id":28,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":28,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771949001,"edit_date":1771949014,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?"}}
+ERR=
+-----------------
+2026-02-24T16:03:36+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":30,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771949016,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T16:03:43+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539232578162269"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T16:03:44+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":8596579399,"message_id":30,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":30,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771949016,"edit_date":1771949024,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-02-24T16:03:45+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":30,"text":"How are you depositing ?\n\n\"CashApp Sflipmz01\"","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":30,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771949016,"edit_date":1771949025,"text":"How are you depositing ?\n\n\"CashApp Sflipmz01\""}}
+ERR=
+-----------------
+2026-02-24T16:03:47+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Please copy\/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease copy\/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\n$Payway33 $3000\n$bbkfrenchbulls $2000","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":31,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771949026,"text":"Please copy/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease copy/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\n$Payway33 $3000\n$bbkfrenchbulls $2000","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T16:58:25+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":33,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771952304,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T16:58:30+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539230577818919"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T16:58:31+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":33,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":33,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771952304,"edit_date":1771952311,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T16:58:43+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":8596579399,"message_id":33,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":33,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771952304,"edit_date":1771952323,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?"}}
+ERR=
+-----------------
+2026-02-24T16:58:44+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":35,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771952324,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T16:58:50+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539231711508701"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T16:58:52+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":8596579399,"message_id":35,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":35,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771952324,"edit_date":1771952331,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-02-24T16:58:53+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":35,"text":"How are you depositing ?\n\n\"CashApp Sflipmz01\"","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":35,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771952324,"edit_date":1771952333,"text":"How are you depositing ?\n\n\"CashApp Sflipmz01\""}}
+ERR=
+-----------------
+2026-02-24T16:58:54+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Please copy\/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease copy\/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\n$Payway33 $3000\n$bbkfrenchbulls $2000","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":36,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771952334,"text":"Please copy/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease copy/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\n$Payway33 $3000\n$bbkfrenchbulls $2000","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T16:59:21+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":38,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771952360,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T16:59:26+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539229807622428"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T16:59:28+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":38,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":38,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771952360,"edit_date":1771952368,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T16:59:39+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":8596579399,"message_id":38,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":38,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771952360,"edit_date":1771952379,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?"}}
+ERR=
+-----------------
+2026-02-24T16:59:40+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":40,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771952380,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T16:59:46+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539229508025122"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T16:59:49+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":8596579399,"message_id":40,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":40,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771952380,"edit_date":1771952389,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-02-24T16:59:51+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":40,"text":"How are you depositing ?\n\n\"CashApp Sflipmz01\"","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":40,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771952380,"edit_date":1771952391,"text":"How are you depositing ?\n\n\"CashApp Sflipmz01\""}}
+ERR=
+-----------------
+2026-02-24T16:59:52+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Please copy\/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease copy\/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\n$Payway33 $3000\n$bbkfrenchbulls $2000","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":41,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771952392,"text":"Please copy/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease copy/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\n$Payway33 $3000\n$bbkfrenchbulls $2000","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T19:09:01+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":43,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771960140,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T19:09:14+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539232132198003"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T19:09:15+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":43,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":43,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771960140,"edit_date":1771960155,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T19:09:29+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":8596579399,"message_id":43,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":43,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771960140,"edit_date":1771960169,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?"}}
+ERR=
+-----------------
+2026-02-24T19:09:30+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":45,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771960170,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T19:10:05+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539229217715451"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T19:10:06+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":8596579399,"message_id":45,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":45,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771960170,"edit_date":1771960206,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-02-24T19:10:07+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":45,"text":"How are you depositing ?\n\n\"CashApp Sflipmz01\"","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":45,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771960170,"edit_date":1771960207,"text":"How are you depositing ?\n\n\"CashApp Sflipmz01\""}}
+ERR=
+-----------------
+2026-02-24T19:10:08+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Please copy\/paste the address below for your $500.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $500.00.\nMethod selected: CashApp Sflipmz01\nIf you need the split addresses for this amount, contact support.","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":46,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771960208,"text":"Please copy/paste the address below for your $500.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $500.00.\nMethod selected: CashApp Sflipmz01\nIf you need the split addresses for this amount, contact support.","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T19:11:07+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":48,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771960267,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T19:11:10+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539232151118043"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T19:11:11+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":48,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":48,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771960267,"edit_date":1771960271,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T19:11:18+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":8596579399,"message_id":48,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":48,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771960267,"edit_date":1771960278,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?"}}
+ERR=
+-----------------
+2026-02-24T19:11:19+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":50,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771960279,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T19:12:08+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539230275446446"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T19:12:09+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":50,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":50,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771960279,"edit_date":1771960329,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T19:12:17+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"28539231390447644"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-24T19:12:18+00:00 METHOD=editMessageText
+REQ={"chat_id":8596579399,"message_id":50,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":50,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771960279,"edit_date":1771960337,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-24T19:12:33+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":8596579399,"message_id":50,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":50,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771960279,"edit_date":1771960353,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?"}}
+ERR=
+-----------------
+2026-02-24T19:12:34+00:00 METHOD=sendMessage
+REQ={"chat_id":8596579399,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":52,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8596579399,"first_name":"Goga","last_name":"Lokhande","username":"Goga1708","type":"private"},"date":1771960354,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T10:45:13+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":55,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772016313,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T10:45:14+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":56,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772016314,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T10:45:17+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"8764701365649775036"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-25T10:45:18+00:00 METHOD=editMessageText
+REQ={"chat_id":6335658356,"message_id":56,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":56,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772016314,"edit_date":1772016317,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T10:45:23+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6335658356,"message_id":56,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":56,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772016314,"edit_date":1772016322,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?"}}
+ERR=
+-----------------
+2026-02-25T10:45:23+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":58,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772016323,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T10:45:28+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"8764701367608822417"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-25T10:45:28+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6335658356,"message_id":58,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":58,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772016323,"edit_date":1772016328,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-02-25T10:45:29+00:00 METHOD=editMessageText
+REQ={"chat_id":6335658356,"message_id":58,"text":"How are you depositing ?\n\n\"CashApp @2024lion\"","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":58,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772016323,"edit_date":1772016329,"text":"How are you depositing ?\n\n\"CashApp @2024lion\"","entities":[{"offset":35,"length":9,"type":"mention"}]}}
+ERR=
+-----------------
+2026-02-25T10:45:30+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Please copy\/paste the address below for your $50.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $50.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":59,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772016330,"text":"Please copy/paste the address below for your $50.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $50.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","entities":[{"offset":238,"length":9,"type":"mention"}],"reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T10:46:25+00:00 METHOD=sendMessage
+REQ={"chat_id":6876259231,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":61,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob","username":"capetillorob","type":"private"},"date":1772016384,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T10:46:28+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"1863192407491392225"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-25T10:46:36+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"1863192405714726927"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-25T10:46:38+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"1863192408796146325"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-25T10:46:39+00:00 METHOD=editMessageText
+REQ={"chat_id":6876259231,"message_id":61,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":61,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob","username":"capetillorob","type":"private"},"date":1772016384,"edit_date":1772016399,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T10:46:45+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6876259231,"message_id":61,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":61,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob","username":"capetillorob","type":"private"},"date":1772016384,"edit_date":1772016404,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?"}}
+ERR=
+-----------------
+2026-02-25T10:46:45+00:00 METHOD=sendMessage
+REQ={"chat_id":6876259231,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":63,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob","username":"capetillorob","type":"private"},"date":1772016405,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T11:09:35+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"8764701364085053940"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-25T11:09:36+00:00 METHOD=editMessageText
+REQ={"chat_id":6335658356,"message_id":59,"text":"Support: Please type your issue. An agent will contact you.","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":59,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772016330,"edit_date":1772017776,"text":"Support: Please type your issue. An agent will contact you.","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T11:09:51+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"If you need help, tap Talk to support or Cancel.","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":65,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772017790,"text":"If you need help, tap Talk to support or Cancel."}}
+ERR=
+-----------------
+2026-02-25T11:09:55+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Support: Please describe your issue. An agent will contact you.","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":67,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772017794,"text":"Support: Please describe your issue. An agent will contact you."}}
+ERR=
+-----------------
+2026-02-25T11:09:59+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Support: Please describe your issue. An agent will contact you.","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":69,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772017799,"text":"Support: Please describe your issue. An agent will contact you."}}
+ERR=
+-----------------
+2026-02-25T11:20:46+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":71,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772018445,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-25T11:21:45+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":73,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772018504,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-25T11:21:52+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":75,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772018512,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-25T14:23:34+00:00 METHOD=sendMessage
+REQ={"chat_id":604373310,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":77,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":604373310,"first_name":"Kaipo","last_name":"Dean","type":"private"},"date":1772029414,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T14:23:43+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"2595763601413845525"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-25T14:23:44+00:00 METHOD=editMessageText
+REQ={"chat_id":604373310,"message_id":77,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":77,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":604373310,"first_name":"Kaipo","last_name":"Dean","type":"private"},"date":1772029414,"edit_date":1772029424,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T14:23:53+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":604373310,"message_id":77,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":77,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":604373310,"first_name":"Kaipo","last_name":"Dean","type":"private"},"date":1772029414,"edit_date":1772029433,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?"}}
+ERR=
+-----------------
+2026-02-25T14:23:54+00:00 METHOD=sendMessage
+REQ={"chat_id":604373310,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":79,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":604373310,"first_name":"Kaipo","last_name":"Dean","type":"private"},"date":1772029434,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T14:24:04+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"2595763604127792330"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-25T14:24:05+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":604373310,"message_id":79,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":79,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":604373310,"first_name":"Kaipo","last_name":"Dean","type":"private"},"date":1772029434,"edit_date":1772029445,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-02-25T14:24:06+00:00 METHOD=editMessageText
+REQ={"chat_id":604373310,"message_id":79,"text":"How are you depositing ?\n\n\"CashApp @2024lion\"","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":79,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":604373310,"first_name":"Kaipo","last_name":"Dean","type":"private"},"date":1772029434,"edit_date":1772029446,"text":"How are you depositing ?\n\n\"CashApp @2024lion\"","entities":[{"offset":35,"length":9,"type":"mention"}]}}
+ERR=
+-----------------
+2026-02-25T14:24:07+00:00 METHOD=sendMessage
+REQ={"chat_id":604373310,"text":"Please copy\/paste the address below for your $5.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $5.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":80,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":604373310,"first_name":"Kaipo","last_name":"Dean","type":"private"},"date":1772029447,"text":"Please copy/paste the address below for your $5.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $5.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","entities":[{"offset":236,"length":9,"type":"mention"}],"reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T16:11:09+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":82,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772035868,"text":"Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-25T17:08:59+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":84,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772039338,"text":"Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-25T17:31:53+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"How much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":86,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772040713,"text":"How much is your deposit ?"}}
+ERR=
+-----------------
+2026-02-25T21:52:04+00:00 METHOD=sendMessage
+REQ={"chat_id":250751605,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":89,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":250751605,"first_name":"Senovio","last_name":"Ramirez III","username":"RunLikeDorsal","type":"private"},"date":1772056324,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T21:52:05+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":90,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772056325,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-25T21:52:10+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"1076969943774757180"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-25T21:52:11+00:00 METHOD=editMessageText
+REQ={"chat_id":250751605,"message_id":89,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":89,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":250751605,"first_name":"Senovio","last_name":"Ramirez III","username":"RunLikeDorsal","type":"private"},"date":1772056324,"edit_date":1772056331,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T21:52:15+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"1076969944627424148"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-25T21:52:19+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"1076969944312087240"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-25T21:52:22+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"1076969946096973636"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-25T21:52:23+00:00 METHOD=editMessageText
+REQ={"chat_id":250751605,"message_id":89,"text":"Support: Please type your issue. An agent will contact you.","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":89,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":250751605,"first_name":"Senovio","last_name":"Ramirez III","username":"RunLikeDorsal","type":"private"},"date":1772056324,"edit_date":1772056343,"text":"Support: Please type your issue. An agent will contact you.","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-25T22:49:33+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":92,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772059773,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-25T22:49:43+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":94,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772059783,"text":"Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-26T08:09:33+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"How much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":96,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772093373,"text":"How much is your deposit ?"}}
+ERR=
+-----------------
+2026-02-26T08:09:39+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6335658356,"message_id":59,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":59,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772016330,"edit_date":1772093379,"text":"Support: Please type your issue. An agent will contact you."}}
+ERR=
+-----------------
+2026-02-26T08:09:40+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":98,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772093380,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-26T08:09:43+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"8764701366774369317"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-26T08:09:44+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6335658356,"message_id":98,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":98,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772093380,"edit_date":1772093384,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-02-26T08:09:45+00:00 METHOD=editMessageText
+REQ={"chat_id":6335658356,"message_id":98,"text":"How are you depositing ?\n\n\"CashApp Sflipmz01\"","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":98,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772093380,"edit_date":1772093385,"text":"How are you depositing ?\n\n\"CashApp Sflipmz01\""}}
+ERR=
+-----------------
+2026-02-26T08:09:46+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Please copy\/paste the address below for your $1000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $1000.00.\nMethod selected: CashApp Sflipmz01\nIf you need the split addresses for this amount, contact support.","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":99,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772093385,"text":"Please copy/paste the address below for your $1000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $1000.00.\nMethod selected: CashApp Sflipmz01\nIf you need the split addresses for this amount, contact support.","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-26T20:53:15+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":101,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772139195,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-26T20:53:17+00:00 METHOD=sendMessage
+REQ={"chat_id":6437989048,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":103,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6437989048,"first_name":"Israel","last_name":"Martinez","type":"private"},"date":1772139197,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-26T20:53:26+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"9204208342455509770"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-26T20:53:27+00:00 METHOD=editMessageText
+REQ={"chat_id":6437989048,"message_id":103,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":103,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6437989048,"first_name":"Israel","last_name":"Martinez","type":"private"},"date":1772139197,"edit_date":1772139207,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-27T04:45:54+00:00 METHOD=sendMessage
+REQ={"chat_id":8769073121,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":105,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8769073121,"first_name":"Kj","last_name":"McHazlett","type":"private"},"date":1772167554,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-27T04:46:30+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"769394126922851261"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-27T04:47:00+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"769394125617622351"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-27T04:47:11+00:00 METHOD=sendMessage
+REQ={"chat_id":8769073121,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":107,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8769073121,"first_name":"Kj","last_name":"McHazlett","type":"private"},"date":1772167631,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-27T04:47:43+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"769394125244904773"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-27T04:47:43+00:00 METHOD=editMessageText
+REQ={"chat_id":8769073121,"message_id":107,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":107,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8769073121,"first_name":"Kj","last_name":"McHazlett","type":"private"},"date":1772167631,"edit_date":1772167663,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-27T06:15:01+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":109,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772172901,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-27T06:17:06+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":111,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772173025,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-27T06:41:00+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":113,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772174460,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-27T06:42:26+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":115,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772174545,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-27T13:30:26+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":117,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772199026,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-27T13:31:55+00:00 METHOD=sendMessage
+REQ={"chat_id":1964364290,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":119,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":1964364290,"first_name":"Borat (Boris)","username":"blissfulborat","type":"private"},"date":1772199115,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-27T13:33:11+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"8436880384698563127"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-02-27T13:33:12+00:00 METHOD=editMessageText
+REQ={"chat_id":1964364290,"message_id":119,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":119,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":1964364290,"first_name":"Borat (Boris)","username":"blissfulborat","type":"private"},"date":1772199115,"edit_date":1772199192,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-02-27T14:14:33+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":121,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772201673,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-27T14:15:07+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":123,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772201707,"text":"Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-02-27T22:12:30+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":125,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772230350,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-03-01T08:51:48+00:00 METHOD=sendMessage
+REQ={"chat_id":1954114118,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":127,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":1954114118,"first_name":"Brian","username":"Briani1304","type":"private"},"date":1772355108,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-01T08:51:55+00:00 METHOD=sendMessage
+REQ={"chat_id":1954114118,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":129,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":1954114118,"first_name":"Brian","username":"Briani1304","type":"private"},"date":1772355115,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-01T08:53:04+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"8392856231352884007"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-01T08:53:05+00:00 METHOD=editMessageText
+REQ={"chat_id":1954114118,"message_id":129,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":129,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":1954114118,"first_name":"Brian","username":"Briani1304","type":"private"},"date":1772355115,"edit_date":1772355184,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-01T08:53:15+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":1954114118,"message_id":129,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":129,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":1954114118,"first_name":"Brian","username":"Briani1304","type":"private"},"date":1772355115,"edit_date":1772355195,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?"}}
+ERR=
+-----------------
+2026-03-01T08:53:16+00:00 METHOD=sendMessage
+REQ={"chat_id":1954114118,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":131,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":1954114118,"first_name":"Brian","username":"Briani1304","type":"private"},"date":1772355196,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-01T08:53:32+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":133,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772355212,"text":"Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-03-03T00:54:59+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"How much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":135,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772499299,"text":"How much is your deposit ?"}}
+ERR=
+-----------------
+2026-03-03T00:55:12+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6335658356,"message_id":98,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+ERR=
+-----------------
+2026-03-03T00:55:13+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":137,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772499312,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-03T00:55:15+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"8764701364029345199"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-03T00:55:16+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6335658356,"message_id":137,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":137,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772499312,"edit_date":1772499315,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-03-03T00:55:16+00:00 METHOD=editMessageText
+REQ={"chat_id":6335658356,"message_id":137,"text":"How are you depositing ?\n\n\"CashApp @2024lion\"","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":137,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772499312,"edit_date":1772499316,"text":"How are you depositing ?\n\n\"CashApp @2024lion\"","entities":[{"offset":35,"length":9,"type":"mention"}]}}
+ERR=
+-----------------
+2026-03-03T00:55:17+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Please copy\/paste the address below for your $500.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $500.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":138,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772499317,"text":"Please copy/paste the address below for your $500.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $500.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","entities":[{"offset":240,"length":9,"type":"mention"}],"reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-03T01:52:18+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"If you need help, tap Talk to support or Cancel.","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":140,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772502738,"text":"If you need help, tap Talk to support or Cancel."}}
+ERR=
+-----------------
+2026-03-03T01:52:22+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":142,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772502742,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-03-03T01:52:25+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"How much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":144,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772502744,"text":"How much is your deposit ?"}}
+ERR=
+-----------------
+2026-03-03T01:52:29+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6335658356,"message_id":137,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+ERR=
+-----------------
+2026-03-03T01:52:30+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":146,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772502749,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-03T01:52:34+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"8764701365291240700"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-03T01:52:35+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6335658356,"message_id":146,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":146,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772502749,"edit_date":1772502755,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-03-03T01:52:36+00:00 METHOD=editMessageText
+REQ={"chat_id":6335658356,"message_id":146,"text":"How are you depositing ?\n\n\"CashApp @2024lion\"","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":146,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772502749,"edit_date":1772502755,"text":"How are you depositing ?\n\n\"CashApp @2024lion\"","entities":[{"offset":35,"length":9,"type":"mention"}]}}
+ERR=
+-----------------
+2026-03-03T01:52:36+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Please copy\/paste the address below for your $100.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $100.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":147,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772502756,"text":"Please copy/paste the address below for your $100.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $100.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","entities":[{"offset":240,"length":9,"type":"mention"}],"reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-03T19:34:32+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"If you need help, tap Talk to support or Cancel.","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":149,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772566472,"text":"If you need help, tap Talk to support or Cancel."}}
+ERR=
+-----------------
+2026-03-03T19:34:38+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":151,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772566478,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-03-03T19:34:39+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":153,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772566478,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-03-03T19:34:42+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"How much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":155,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772566482,"text":"How much is your deposit ?"}}
+ERR=
+-----------------
+2026-03-03T19:34:57+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6335658356,"message_id":146,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+ERR=
+-----------------
+2026-03-03T19:34:58+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":157,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772566498,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-03T19:35:05+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"8764701365338856524"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-03T19:35:06+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6335658356,"message_id":157,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":157,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772566498,"edit_date":1772566506,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-03-03T19:35:07+00:00 METHOD=editMessageText
+REQ={"chat_id":6335658356,"message_id":157,"text":"How are you depositing ?\n\n\"CashApp Sbbkfrenchbulls\"","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":157,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772566498,"edit_date":1772566506,"text":"How are you depositing ?\n\n\"CashApp Sbbkfrenchbulls\""}}
+ERR=
+-----------------
+2026-03-03T19:35:07+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Please copy\/paste the address below for your $100.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $100.00.\nMethod selected: CashApp Sbbkfrenchbulls\nIf you need the split addresses for this amount, contact support.","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":158,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772566507,"text":"Please copy/paste the address below for your $100.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $100.00.\nMethod selected: CashApp Sbbkfrenchbulls\nIf you need the split addresses for this amount, contact support.","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-03T19:57:48+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"8764701366944607342"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-03T19:57:48+00:00 METHOD=editMessageText
+REQ={"chat_id":6335658356,"message_id":158,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":158,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772566507,"edit_date":1772567868,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-03T22:04:56+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":160,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772575496,"text":"Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-03-03T22:05:05+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"How much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":162,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772575505,"text":"How much is your deposit ?"}}
+ERR=
+-----------------
+2026-03-03T22:05:14+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6335658356,"message_id":158,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":158,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772566507,"edit_date":1772575514,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-03-03T22:05:15+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":164,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772575515,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-03T22:05:31+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"8764701365456369790"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-03T22:05:31+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6335658356,"message_id":164,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":164,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772575515,"edit_date":1772575531,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-03-03T22:05:32+00:00 METHOD=editMessageText
+REQ={"chat_id":6335658356,"message_id":164,"text":"How are you depositing ?\n\n\"CashApp Sflipmz01\"","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":164,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772575515,"edit_date":1772575532,"text":"How are you depositing ?\n\n\"CashApp Sflipmz01\""}}
+ERR=
+-----------------
+2026-03-03T22:05:33+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Please copy\/paste the address below for your $100.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $100.00.\nMethod selected: CashApp Sflipmz01\nIf you need the split addresses for this amount, contact support.","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":165,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772575532,"text":"Please copy/paste the address below for your $100.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $100.00.\nMethod selected: CashApp Sflipmz01\nIf you need the split addresses for this amount, contact support.","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-03T22:07:07+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"8764701365148538127"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-03T22:07:08+00:00 METHOD=editMessageText
+REQ={"chat_id":6335658356,"message_id":165,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":165,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772575532,"edit_date":1772575628,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-03T23:35:36+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":167,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772580936,"text":"Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-03-04T03:12:06+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":169,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772593925,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-03-04T03:12:08+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"How much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":171,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772593928,"text":"How much is your deposit ?"}}
+ERR=
+-----------------
+2026-03-04T03:12:14+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":173,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772593933,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-03-04T06:15:59+00:00 METHOD=sendMessage
+REQ={"chat_id":6876259231,"text":"Please select one of the deposit methods using the buttons.","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"CashApp @2024lion\"],[\"CashApp Sbbkfrenchbulls\"],[\"CashApp Sdarickrod\"],[\"CashApp Sflipmz01\"],[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":175,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob - $KIMCHI on Doge","username":"capetillorob","type":"private"},"date":1772604959,"text":"Please select one of the deposit methods using the buttons."}}
+ERR=
+-----------------
+2026-03-04T06:16:28+00:00 METHOD=sendMessage
+REQ={"chat_id":6876259231,"text":"how are you doong  deposit ?\n\"CashApp @2024lion\"\n\nPlease send your exact deposit amount: $100.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":177,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob - $KIMCHI on Doge","username":"capetillorob","type":"private"},"date":1772604988,"text":"how are you doong  deposit ?\n\"CashApp @2024lion\"\n\nPlease send your exact deposit amount: $100.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","entities":[{"offset":38,"length":9,"type":"mention"},{"offset":123,"length":9,"type":"mention"}]}}
+ERR=
+-----------------
+2026-03-04T06:16:51+00:00 METHOD=sendMessage
+REQ={"chat_id":6876259231,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":179,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob - $KIMCHI on Doge","username":"capetillorob","type":"private"},"date":1772605010,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-03-04T06:16:54+00:00 METHOD=sendMessage
+REQ={"chat_id":6876259231,"text":"How much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":181,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob - $KIMCHI on Doge","username":"capetillorob","type":"private"},"date":1772605014,"text":"How much is your deposit ?"}}
+ERR=
+-----------------
+2026-03-04T06:17:01+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6876259231,"message_id":63,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":63,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob - $KIMCHI on Doge","username":"capetillorob","type":"private"},"date":1772016405,"edit_date":1772605020,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-03-04T06:17:01+00:00 METHOD=sendMessage
+REQ={"chat_id":6876259231,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":183,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob - $KIMCHI on Doge","username":"capetillorob","type":"private"},"date":1772605021,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-04T06:17:04+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"1863192409616827699"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-04T06:17:04+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6876259231,"message_id":183,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":183,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob - $KIMCHI on Doge","username":"capetillorob","type":"private"},"date":1772605021,"edit_date":1772605024,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-03-04T06:17:05+00:00 METHOD=editMessageText
+REQ={"chat_id":6876259231,"message_id":183,"text":"How are you depositing ?\n\n\"CashApp @2024lion\"","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":183,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob - $KIMCHI on Doge","username":"capetillorob","type":"private"},"date":1772605021,"edit_date":1772605025,"text":"How are you depositing ?\n\n\"CashApp @2024lion\"","entities":[{"offset":35,"length":9,"type":"mention"}]}}
+ERR=
+-----------------
+2026-03-04T06:17:05+00:00 METHOD=sendMessage
+REQ={"chat_id":6876259231,"text":"Please copy\/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $5000.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":184,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob - $KIMCHI on Doge","username":"capetillorob","type":"private"},"date":1772605025,"text":"Please copy/paste the address below for your $5000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $5000.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","entities":[{"offset":242,"length":9,"type":"mention"}],"reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-04T06:17:20+00:00 METHOD=sendMessage
+REQ={"chat_id":6876259231,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":186,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob - $KIMCHI on Doge","username":"capetillorob","type":"private"},"date":1772605040,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-03-04T06:17:28+00:00 METHOD=sendMessage
+REQ={"chat_id":6876259231,"text":"Balance feature not connected yet.","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":188,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob - $KIMCHI on Doge","username":"capetillorob","type":"private"},"date":1772605048,"text":"Balance feature not connected yet."}}
+ERR=
+-----------------
+2026-03-04T06:17:37+00:00 METHOD=sendMessage
+REQ={"chat_id":6876259231,"text":"Withdraw feature not connected yet.","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":190,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6876259231,"first_name":"Big Rob - $KIMCHI on Doge","username":"capetillorob","type":"private"},"date":1772605057,"text":"Withdraw feature not connected yet."}}
+ERR=
+-----------------
+2026-03-05T23:46:47+00:00 METHOD=sendMessage
+REQ={"chat_id":8283582767,"text":"Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":192,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8283582767,"first_name":"Redzealots","username":"redzealots","type":"private"},"date":1772754407,"text":"Welcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-05T23:46:59+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"7907600970688958534"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-05T23:47:00+00:00 METHOD=editMessageText
+REQ={"chat_id":8283582767,"message_id":192,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":192,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8283582767,"first_name":"Redzealots","username":"redzealots","type":"private"},"date":1772754407,"edit_date":1772754419,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83d\udcb0 Deposit","callback_data":"MENU_DEPOSIT"},{"text":"\ud83d\udcca Check balance","callback_data":"MENU_BALANCE"}],[{"text":"\ud83c\udfe7 Withdraw","callback_data":"MENU_WITHDRAW"},{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"}],[{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-05T23:47:02+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"7907600968803230306"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-05T23:47:03+00:00 METHOD=editMessageText
+REQ={"chat_id":8283582767,"message_id":192,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+ERR=
+-----------------
+2026-03-05T23:47:03+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Canceled. Welcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Deposit\",\"Check balance\"],[\"Withdraw\",\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":194,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772754423,"text":"Canceled. Welcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-03-05T23:47:04+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"7907600969846456911"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-05T23:47:05+00:00 METHOD=editMessageText
+REQ={"chat_id":8283582767,"message_id":192,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+ERR=
+-----------------
+2026-03-05T23:47:06+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"7907600969944683740"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-05T23:47:06+00:00 METHOD=editMessageText
+REQ={"chat_id":8283582767,"message_id":192,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+ERR=
+-----------------
+2026-03-05T23:47:08+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"7907600970130305072"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-05T23:47:08+00:00 METHOD=editMessageText
+REQ={"chat_id":8283582767,"message_id":192,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+ERR=
+-----------------
+2026-03-05T23:47:11+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"7907600971147203464"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-05T23:47:12+00:00 METHOD=editMessageText
+REQ={"chat_id":8283582767,"message_id":192,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":192,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8283582767,"first_name":"Redzealots","username":"redzealots","type":"private"},"date":1772754407,"edit_date":1772754432,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-05T23:47:24+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":8283582767,"message_id":192,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":192,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8283582767,"first_name":"Redzealots","username":"redzealots","type":"private"},"date":1772754407,"edit_date":1772754444,"text":"Welcome to AJRo, What would you like to do ?\n\n\"Deposit\"\n\nHow much is your deposit ?"}}
+ERR=
+-----------------
+2026-03-05T23:47:25+00:00 METHOD=sendMessage
+REQ={"chat_id":8283582767,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":196,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8283582767,"first_name":"Redzealots","username":"redzealots","type":"private"},"date":1772754444,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-05T23:47:48+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"7907600969053793766"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-05T23:47:49+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":8283582767,"message_id":196,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":196,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8283582767,"first_name":"Redzealots","username":"redzealots","type":"private"},"date":1772754444,"edit_date":1772754469,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-03-05T23:47:49+00:00 METHOD=editMessageText
+REQ={"chat_id":8283582767,"message_id":196,"text":"How are you depositing ?\n\n\"CashApp @2024lion\"","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":196,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8283582767,"first_name":"Redzealots","username":"redzealots","type":"private"},"date":1772754444,"edit_date":1772754469,"text":"How are you depositing ?\n\n\"CashApp @2024lion\"","entities":[{"offset":35,"length":9,"type":"mention"}]}}
+ERR=
+-----------------
+2026-03-05T23:47:50+00:00 METHOD=sendMessage
+REQ={"chat_id":8283582767,"text":"Please copy\/paste the address below for your $1000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $1000.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":197,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":8283582767,"first_name":"Redzealots","username":"redzealots","type":"private"},"date":1772754470,"text":"Please copy/paste the address below for your $1000.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $1000.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","entities":[{"offset":242,"length":9,"type":"mention"}],"reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-05T23:51:16+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"8764701367817415122"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-05T23:51:16+00:00 METHOD=editMessageText
+REQ={"chat_id":6335658356,"message_id":165,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83d\udcb0 Deposit\",\"callback_data\":\"MENU_DEPOSIT\"},{\"text\":\"\ud83d\udcca Check balance\",\"callback_data\":\"MENU_BALANCE\"}],[{\"text\":\"\ud83c\udfe7 Withdraw\",\"callback_data\":\"MENU_WITHDRAW\"},{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"}],[{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+ERR=
+-----------------
+2026-03-06T07:25:58+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"How much is your deposit ?","parse_mode":"HTML","reply_markup":"{\"keyboard\":[[\"Talk to support\"],[\"Cancel\"]],\"resize_keyboard\":true,\"one_time_keyboard\":false,\"is_persistent\":true}"}
+RES={"ok":true,"result":{"message_id":199,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772781958,"text":"How much is your deposit ?"}}
+ERR=
+-----------------
+2026-03-06T07:26:03+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6335658356,"message_id":165,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":165,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772575532,"edit_date":1772781963,"text":"Canceled.\n\nWelcome to AJRo, What would you like to do ?"}}
+ERR=
+-----------------
+2026-03-06T07:26:04+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"How are you depositing ?","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"CashApp @2024lion\",\"callback_data\":\"M_CASHAPP_2024LION\"}],[{\"text\":\"CashApp Sbbkfrenchbulls\",\"callback_data\":\"M_CASHAPP_BBK\"}],[{\"text\":\"CashApp Sdarickrod\",\"callback_data\":\"M_CASHAPP_DARICK\"}],[{\"text\":\"CashApp Sflipmz01\",\"callback_data\":\"M_CASHAPP_FLIP\"}],[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":201,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772781964,"text":"How are you depositing ?","reply_markup":{"inline_keyboard":[[{"text":"CashApp @2024lion","callback_data":"M_CASHAPP_2024LION"}],[{"text":"CashApp Sbbkfrenchbulls","callback_data":"M_CASHAPP_BBK"}],[{"text":"CashApp Sdarickrod","callback_data":"M_CASHAPP_DARICK"}],[{"text":"CashApp Sflipmz01","callback_data":"M_CASHAPP_FLIP"}],[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-06T07:26:07+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"8764701365650468279"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-06T07:26:08+00:00 METHOD=editMessageReplyMarkup
+REQ={"chat_id":6335658356,"message_id":201,"reply_markup":"{\"inline_keyboard\":[]}"}
+RES={"ok":true,"result":{"message_id":201,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772781964,"edit_date":1772781968,"text":"How are you depositing ?"}}
+ERR=
+-----------------
+2026-03-06T07:26:09+00:00 METHOD=editMessageText
+REQ={"chat_id":6335658356,"message_id":201,"text":"How are you depositing ?\n\n\"CashApp @2024lion\"","parse_mode":"HTML"}
+RES={"ok":true,"result":{"message_id":201,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772781964,"edit_date":1772781969,"text":"How are you depositing ?\n\n\"CashApp @2024lion\"","entities":[{"offset":35,"length":9,"type":"mention"}]}}
+ERR=
+-----------------
+2026-03-06T07:26:09+00:00 METHOD=sendMessage
+REQ={"chat_id":6335658356,"text":"Please copy\/paste the address below for your $100.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $100.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":202,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772781969,"text":"Please copy/paste the address below for your $100.00 payment.\nSend exact amounts to each location.\n\nPlease attach this as the note and DO NOT enter text as the note.\n\nPlease send your exact deposit amount: $100.00.\nMethod selected: CashApp @2024lion\nIf you need the split addresses for this amount, contact support.","entities":[{"offset":240,"length":9,"type":"mention"}],"reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
+2026-03-06T07:26:16+00:00 METHOD=answerCallbackQuery
+REQ={"callback_query_id":"8764701367511451005"}
+RES={"ok":true,"result":true}
+ERR=
+-----------------
+2026-03-06T07:26:17+00:00 METHOD=editMessageText
+REQ={"chat_id":6335658356,"message_id":202,"text":"Support: Please type your issue. An agent will contact you.","parse_mode":"HTML","reply_markup":"{\"inline_keyboard\":[[{\"text\":\"\ud83e\uddd1\u200d\ud83d\udcac Talk to support\",\"callback_data\":\"MENU_SUPPORT\"},{\"text\":\"\u274c Cancel\",\"callback_data\":\"MENU_CANCEL\"}]]}"}
+RES={"ok":true,"result":{"message_id":202,"from":{"id":8739358865,"is_bot":true,"first_name":"Myautopay","username":"Myautopay_bot"},"chat":{"id":6335658356,"first_name":"Alejandra","last_name":"Rosales","type":"private"},"date":1772781969,"edit_date":1772781977,"text":"Support: Please type your issue. An agent will contact you.","reply_markup":{"inline_keyboard":[[{"text":"\ud83e\uddd1\u200d\ud83d\udcac Talk to support","callback_data":"MENU_SUPPORT"},{"text":"\u274c Cancel","callback_data":"MENU_CANCEL"}]]}}}
+ERR=
+-----------------
