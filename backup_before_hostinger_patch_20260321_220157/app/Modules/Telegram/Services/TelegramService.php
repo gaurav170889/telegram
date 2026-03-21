@@ -18,8 +18,8 @@ class TelegramService {
             CURLOPT_POSTFIELDS => http_build_query($data),
             CURLOPT_CONNECTTIMEOUT => 10,
             CURLOPT_TIMEOUT => 20,
-            CURLOPT_SSL_VERIFYPEER => (defined('TELEGRAM_VERIFY_SSL') ? TELEGRAM_VERIFY_SSL === '1' : true),
-            CURLOPT_SSL_VERIFYHOST => (defined('TELEGRAM_VERIFY_SSL') && TELEGRAM_VERIFY_SSL === '1' ? 2 : 0),
+            CURLOPT_SSL_VERIFYPEER => false,
+            CURLOPT_SSL_VERIFYHOST => false,
         ]);
 
         $res = curl_exec($ch);
