@@ -1,4 +1,8 @@
 RewriteEngine On
+
+RewriteRule ^(reset_db|apply_migration|run_db_update|fix_db|debug_p2p|test|test_dump|test_fetch|add_temp_payload|cleanup_failed_deposit|fix_legacy_withdrawals)\.php$ - [F,L,NC]
+RewriteRule ^(tmp|scripts|database|cron|storage/logs|storage/sessions)/ - [F,L,NC]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.php [L]

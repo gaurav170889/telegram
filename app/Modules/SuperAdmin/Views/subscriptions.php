@@ -4,6 +4,9 @@
 <main class="main-content">
     <div class="topbar">
         <h1 class="page-title">Manage Contracts & Subscriptions</h1>
+        <a href="<?= $basePath ?>/logout" class="logout-btn">
+            <i class="fa-solid fa-right-from-bracket"></i> Logout
+        </a>
     </div>
     
     <div class="glass-panel" style="padding: 2rem;">

@@ -4,6 +4,9 @@
 <main class="main-content">
     <div class="topbar">
         <h1 class="page-title">Global Transactions & Queue</h1>
+        <a href="<?= $basePath ?>/logout" class="logout-btn">
+            <i class="fa-solid fa-right-from-bracket"></i> Logout
+        </a>
     </div>
 
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">

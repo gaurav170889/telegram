@@ -456,9 +456,9 @@ class TelegramWebhookController {
                 $reason = $result['reason'] === 'reserved' ? 'It is currently processing a split payment.' : 'It is no longer in the queue.';
                 $tg->answerCallbackQuery($callback['id'], "Cannot cancel this withdrawal: {$reason}", true);
             } else {
-                $msg = "⚠️ <b>Cancel Withdrawal #{$withdrawalId}</b>\n\nAre you sure you want to cancel this withdrawal? The funds will be credited back to your balance.\n\n<i>This request will expire automatically in 10 minutes if not confirmed.</i>";
-                
-                $tg->sendMessage($chatId, $msg, [
+                $msg = "⚠️ <b>Cancel Withdrawal #{$withdrawalId}</b>\n\n<b>Selected :</b> Cancel Withdraw\n\nAre you sure you want to cancel this withdrawal? The funds will be credited back to your balance.\n\n<i>This request will expire automatically in 10 minutes if not confirmed.</i>";
+
+                $tg->editMessageText($chatId, $callback['message']['message_id'], $msg, [
                     'inline_keyboard' => [
                         [
                             ['text' => '✅ Confirm Cancel', 'callback_data' => "CONFIRM_CANCEL_WD_{$withdrawalId}"],
@@ -477,7 +477,12 @@ class TelegramWebhookController {
                 $tg->editMessageText($chatId, $callback['message']['message_id'], "❌ <b>Cancellation Expired</b>\n\nThe 10-minute confirmation window has expired. Your withdrawal has been restored to the queue.");
             } elseif ($result['success']) {
                 $refund = number_format($result['amount_refunded'], 2);
-                $tg->editMessageText($chatId, $callback['message']['message_id'], "✅ <b>Withdrawal Cancelled!</b>\n\n\${$refund} has been successfully credited back to your available balance.");
+                $tg->editMessageText(
+                    $chatId,
+                    $callback['message']['message_id'],
+                    "✅ <b>Withdrawal Cancelled!</b>\n\n\${$refund} has been successfully credited back to your available balance.",
+                    ['inline_keyboard' => [[['text' => 'Back to Menu', 'callback_data' => 'MAIN_MENU']]]]
+                );
             } else {
                 $tg->answerCallbackQuery($callback['id'], "Failed to confirm cancellation.", true);
             }
@@ -485,7 +490,12 @@ class TelegramWebhookController {
             $withdrawalId = str_replace('KEEP_WITHDRAWAL_', '', $data);
             $db = \App\Core\Database::getInstance();
             $db->prepare("UPDATE withdrawals SET status = 'queued', cancel_confirmation_expires_at = NULL WHERE id = ?")->execute([$withdrawalId]);
-            $tg->editMessageText($chatId, $callback['message']['message_id'], "✅ <b>Withdrawal Kept</b>\n\nYour withdrawal is still safe in the queue.");
+            $tg->editMessageText(
+                $chatId,
+                $callback['message']['message_id'],
+                "✅ <b>Withdrawal Kept</b>\n\nYour withdrawal is still safe in the queue.",
+                ['inline_keyboard' => [[['text' => 'Back to Menu', 'callback_data' => 'MAIN_MENU']]]]
+            );
         } elseif (strpos($data, 'DISPUTE_SPLIT_') === 0) {
             $splitId = str_replace('DISPUTE_SPLIT_', '', $data);
             $queueService = new \App\Modules\Wallet\Services\QueueService();

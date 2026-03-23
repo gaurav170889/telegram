@@ -1,0 +1,16 @@
+/storage/logs/*.log
+/storage/sessions/*
+/storage/receipts/*
+!/storage/receipts/.gitkeep
+/tmp/*
+/debug_output.json
+/status.json
+/tg_debug.log
+/test.php
+/test_dump.php
+/test_fetch.php
+/debug_p2p.php
+/fix_db.php
+/reset_db.php
+/apply_migration.php
+/run_db_update.php

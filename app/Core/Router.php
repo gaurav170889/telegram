@@ -25,11 +25,6 @@ class Router {
         }
         $path = '/' . trim($path, '/');
 
-        // Debug: Log the path being matched
-        if (ini_get('display_errors')) {
-            echo "<!-- Debug: Method=$method, Path=$path -->";
-        }
-
         foreach ($this->routes as $route) {
             if ($route['method'] === $method && preg_match($route['path'], $path, $matches)) {
                 $handler = $route['handler'];

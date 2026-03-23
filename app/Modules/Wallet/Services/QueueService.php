@@ -281,7 +281,14 @@ class QueueService {
                 if ($best) { $selectedWithdrawals[] = ['withdrawal' => $best, 'amount' => $remainingAmount]; $remainingAmount = 0; unset($allCandidates[$bk]); }
             }
             if ($remainingAmount > 0) {
-                usort($allCandidates, fn($a,$b) => (float)$b['amount_remaining'] <=> (float)$a['amount_remaining']);
+                usort($allCandidates, function ($a, $b) {
+                    $left = (float) $b['amount_remaining'];
+                    $right = (float) $a['amount_remaining'];
+                    if ($left === $right) {
+                        return 0;
+                    }
+                    return ($left < $right) ? -1 : 1;
+                });
                 foreach ($allCandidates as $w) {
                     if ($remainingAmount <= 0) break;
                     $a = min($remainingAmount, (float)$w['amount_remaining']);
