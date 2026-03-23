@@ -2,7 +2,7 @@
 require_once __DIR__ . '/config.php';
 
 function tgRequest(string $method, array $data) {
-  $ch = curl_init(API_URL . $method);
+  $ch = curl_init(BASE_API_URL . $method);
   curl_setopt_array($ch, [
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_POST => true,
@@ -15,11 +15,12 @@ function tgRequest(string $method, array $data) {
   $err = curl_error($ch);
   curl_close($ch);
 
-  // Debug log (IMPORTANT)
-  file_put_contents(__DIR__ . "/tg_debug.log",
-    date('c') . " METHOD={$method}\nREQ=" . json_encode($data) . "\nRES={$res}\nERR={$err}\n-----------------\n",
-    FILE_APPEND
-  );
+  if (!defined('APP_ENV') || APP_ENV !== 'production') {
+    file_put_contents(__DIR__ . "/tg_debug.log",
+      date('c') . " METHOD={$method}\nREQ=" . json_encode($data) . "\nRES={$res}\nERR={$err}\n-----------------\n",
+      FILE_APPEND
+    );
+  }
 
   return $res;
 }
