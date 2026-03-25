@@ -6,24 +6,44 @@ if (!function_exists('envv')) {
     }
 }
 
-$localConfig = [];
-$localConfigPath = __DIR__ . '/config.local.php';
-if (is_file($localConfigPath)) {
-    $loadedConfig = require $localConfigPath;
-    if (is_array($loadedConfig)) {
-        $localConfig = $loadedConfig;
+if (!isset($GLOBALS['_appLocalConfig'])) {
+    $GLOBALS['_appLocalConfig'] = [];
+
+    // Try project root (same dir as this file), then one level up as fallback
+    $localConfigCandidates = [
+        __DIR__ . '/config.local.php',
+        dirname(__DIR__) . '/config.local.php',
+    ];
+
+    foreach ($localConfigCandidates as $_candidatePath) {
+        if (is_file($_candidatePath)) {
+            $GLOBALS['_appLocalConfig'] = (function($_path) {
+                $data = require $_path;
+                return is_array($data) ? $data : [];
+            })($_candidatePath);
+            break;
+        }
+    }
+
+    // Write one-time startup log so you can verify path on server
+    $logDir = __DIR__ . '/storage/logs';
+    if (is_dir($logDir) && is_writable($logDir)) {
+        $found = !empty($GLOBALS['_appLocalConfig']) ? 'LOADED' : 'NOT FOUND (using defaults)';
+        @file_put_contents($logDir . '/config_load.log',
+            "[" . date('Y-m-d H:i:s') . "] config.local.php from __DIR__=" . __DIR__ . " → " . $found . "\n",
+            FILE_APPEND | LOCK_EX
+        );
     }
 }
 
 if (!function_exists('app_cfg')) {
     function app_cfg($key, $default = null) {
-        global $localConfig;
-
         $envValue = getenv($key);
         if ($envValue !== false && $envValue !== '') {
             return $envValue;
         }
 
+        $localConfig = $GLOBALS['_appLocalConfig'] ?? [];
         if (isset($localConfig[$key]) && $localConfig[$key] !== '') {
             return $localConfig[$key];
         }
