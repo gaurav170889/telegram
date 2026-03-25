@@ -14,3 +14,5 @@
 /reset_db.php
 /apply_migration.php
 /run_db_update.php
+/config.local.php
+/.env
