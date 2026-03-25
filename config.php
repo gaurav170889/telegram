@@ -24,16 +24,6 @@ if (!isset($GLOBALS['_appLocalConfig'])) {
             break;
         }
     }
-
-    // Write one-time startup log so you can verify path on server
-    $logDir = __DIR__ . '/storage/logs';
-    if (is_dir($logDir) && is_writable($logDir)) {
-        $found = !empty($GLOBALS['_appLocalConfig']) ? 'LOADED' : 'NOT FOUND (using defaults)';
-        @file_put_contents($logDir . '/config_load.log',
-            "[" . date('Y-m-d H:i:s') . "] config.local.php from __DIR__=" . __DIR__ . " → " . $found . "\n",
-            FILE_APPEND | LOCK_EX
-        );
-    }
 }
 
 if (!function_exists('app_cfg')) {
